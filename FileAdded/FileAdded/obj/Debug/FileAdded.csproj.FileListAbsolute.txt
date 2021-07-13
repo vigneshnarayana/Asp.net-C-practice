@@ -1,0 +1,7 @@
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\bin\Debug\FileAdded.exe.config
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\bin\Debug\FileAdded.exe
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\bin\Debug\FileAdded.pdb
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\obj\Debug\FileAdded.csprojAssemblyReference.cache
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\obj\Debug\FileAdded.csproj.CoreCompileInputs.cache
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\obj\Debug\FileAdded.exe
+C:\Users\vignesh.n\source\repos\FileAdded\FileAdded\obj\Debug\FileAdded.pdb

@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Asp.net Crud Operations-Sp", "Asp.net Crud Operations-Sp\", "{138AE47B-34DD-4302-905D-E6A2A65AB81E}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_49442"
+		Debug.AspNetCompiler.PhysicalPath = "Asp.net Crud Operations-Sp\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49442\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_49442"
+		Release.AspNetCompiler.PhysicalPath = "Asp.net Crud Operations-Sp\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_49442\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49442"
+		SlnRelativePath = "Asp.net Crud Operations-Sp\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{138AE47B-34DD-4302-905D-E6A2A65AB81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138AE47B-34DD-4302-905D-E6A2A65AB81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7255B995-1457-4292-95EB-4B29D5FBCAE9}
+	EndGlobalSection
+EndGlobal

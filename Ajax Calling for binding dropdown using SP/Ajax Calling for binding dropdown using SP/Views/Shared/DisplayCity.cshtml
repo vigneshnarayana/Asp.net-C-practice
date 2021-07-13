@@ -1,0 +1,10 @@
+﻿@model Ajax_Calling_for_binding_dropdown_using_SP.Models.City
+
+<option value="">--Select Cites--</option>
+@if (ViewBag.cityList != null)
+{
+    foreach (var item in ViewBag.cityList)
+    {
+        <option value="@item.Value">@item.Text</option>
+    }
+}

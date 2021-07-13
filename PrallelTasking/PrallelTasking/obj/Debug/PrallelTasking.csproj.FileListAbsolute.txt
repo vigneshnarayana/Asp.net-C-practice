@@ -1,0 +1,7 @@
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\bin\Debug\PrallelTasking.exe.config
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\bin\Debug\PrallelTasking.exe
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\bin\Debug\PrallelTasking.pdb
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\obj\Debug\PrallelTasking.csprojAssemblyReference.cache
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\obj\Debug\PrallelTasking.csproj.CoreCompileInputs.cache
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\obj\Debug\PrallelTasking.exe
+C:\Users\vignesh.n\source\repos\PrallelTasking\PrallelTasking\obj\Debug\PrallelTasking.pdb

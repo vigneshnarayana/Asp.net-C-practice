@@ -1,0 +1,23 @@
+﻿@model IEnumerable<dataBindingMVC.crudeemp_Result>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+@{
+    WebGrid wbgrid = new WebGrid(source: Model, rowsPerPage: 2);
+}
+<div>
+    @wbgrid.GetHtml(
+        tableStyle:"table",
+        htmlAttributes:new {   @id= "wbgrid" },
+        columns:wbgrid.Columns(
+            wbgrid.Column("Empid", "Empid"),
+             wbgrid.Column("Empname", "Empname"),
+              wbgrid.Column("Email", "Email"),
+               wbgrid.Column("Salary", "Salary"))
+
+        )
+
+</div>

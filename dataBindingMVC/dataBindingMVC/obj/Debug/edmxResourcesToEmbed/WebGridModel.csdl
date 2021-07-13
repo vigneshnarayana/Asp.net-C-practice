@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AzuredbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Emptable">
+    <Key>
+      <PropertyRef Name="Empid" />
+    </Key>
+    <Property Name="Empid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Empname" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="Salary" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="AzuredbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Emptables" EntityType="Self.Emptable" />
+    <FunctionImport Name="crudeemp" ReturnType="Collection(AzuredbModel.crudeemp_Result)">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="Empname" Mode="In" Type="String" />
+      <Parameter Name="Email" Mode="In" Type="String" />
+      <Parameter Name="Salary" Mode="In" Type="String" />
+      <Parameter Name="CrudOption" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="crudeemp_Result">
+    <Property Type="Int32" Name="Empid" Nullable="false" />
+    <Property Type="String" Name="Empname" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="Email" Nullable="true" MaxLength="150" />
+    <Property Type="String" Name="Salary" Nullable="true" MaxLength="150" />
+  </ComplexType>
+</Schema>

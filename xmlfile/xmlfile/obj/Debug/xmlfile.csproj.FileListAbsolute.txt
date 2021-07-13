@@ -1,0 +1,7 @@
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\bin\Debug\xmlfile.exe.config
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\bin\Debug\xmlfile.exe
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\bin\Debug\xmlfile.pdb
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\obj\Debug\xmlfile.csprojAssemblyReference.cache
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\obj\Debug\xmlfile.csproj.CoreCompileInputs.cache
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\obj\Debug\xmlfile.exe
+C:\Users\vignesh.n\source\repos\xmlfile\xmlfile\obj\Debug\xmlfile.pdb

@@ -1,0 +1,52 @@
+﻿@model Ajax_Calling_for_binding_dropdown_using_SP.Models.CascadingClass
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@if (ViewBag.ContriesList != null)
+{
+    @Html.DropDownListFor(x => x.Cid, ViewBag.ContriesList as SelectList, "-- Select Contry Name--", new { @class = "form-control" })
+}
+
+@Html.DropDownListFor(x => x.Sid, new  SelectList(""), "-- Select States--", new { @class = "form-control" })
+@Html.DropDownListFor(x => x.Cityid, new  SelectList(""), "-- Select Contries--", new { @class = "form-control" })
+<script src="~/Scripts/jquery-3.3.1.min.js"></script>
+
+
+<script>
+    $(document).ready(function () {
+        $("#Cid").change(function () {
+            var ContryId = $(this).val();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "/Cas/GetStateList?Cid=" + ContryId,
+                contentType: "html",
+                success: function (response) {
+                    debugger
+                    $("#Sid").empty();
+                    $("#Sid").append(response)
+                }
+            })
+        })
+    })
+
+    $(document).ready(function () {
+        $("#Sid").change(function () {
+            var SateId = $(this).val();
+            debugger
+            $.ajax({
+                type: "post",
+                url: "/Cas/GetCityList?Sid=" + SateId,
+                contentType: "html",
+                success: function (response) {
+                    debugger
+                    $("#Cityid").empty();
+                    $("#Cityid").append(response)
+                }
+            })
+        })
+    })
+</script>

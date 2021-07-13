@@ -1,0 +1,44 @@
+﻿@model  WebApplication4.Context.tbl_student
+@{
+    ViewBag.Title = "Student";
+}
+
+@using (Html.BeginForm("AddStudent", "Student", FormMethod.Post))
+{
+<div class="container">
+    <div class="form-group">
+        <label>Name</label>
+        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Father Name</label>
+        @Html.TextBoxFor(x => x.Fname, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Mobile</label>
+        @Html.TextBoxFor(x => x.Mobile, new { @class = "form-control" })
+
+    </div>
+    <div class="form-group">
+        <label>Description</label>
+        @Html.TextBoxFor(x => x.Description, new { @class = "form-control", @rows = "10" })
+
+    </div>
+    <div class="form-group">
+        <button  type="submit" class="btn btn-primary">Submite
+
+        </button>
+
+    </div>
+
+</div>
+
+}
+
